@@ -1,0 +1,79 @@
+/* Grid index HTML */
+.container-about {
+  margin: 50px 150px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.container-members {
+  margin: 50px 150px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 10% 20%;
+  justify-content: center;
+}
+
+.member {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.social-media {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.media {
+  margin: 50px;
+}
+
+.media img {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.playlists {
+  margin: 50px 150px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.music {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-song {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.song {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.spotify {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}

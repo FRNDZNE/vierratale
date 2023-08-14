@@ -1,0 +1,29 @@
+.read-more {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: white;
+}
+
+.more-albums {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.more-albums a {
+  text-decoration: none;
+  color: yellow;
+}

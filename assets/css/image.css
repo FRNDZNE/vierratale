@@ -1,0 +1,28 @@
+/* Slideshow CSS */
+.slideshow-container {
+  padding-top: 50px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container img {
+  max-height: 600px;
+  vertical-align: middle;
+  width: 100%;
+}
+.member img {
+  width: 300px;
+  height: 300px;
+}
+/* About image */
+.container-about img {
+  width: 600px;
+  height: auto;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
